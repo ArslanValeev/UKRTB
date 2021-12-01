@@ -83,21 +83,18 @@
       android:id="@+id/button2"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginBottom="48dp"
       android:width="350sp"
 
 
-      android:backgroundTint="#191919"
-      android:fadingEdge="horizontal"
-      android:foregroundTint="#FF7E7E"
+      android:background="@drawable/color"
       android:onClick="asd"
       android:text="Регистрация"
       android:textColorHint="#FFFFFF"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintHorizontal_bias="0.54"
       app:layout_constraintStart_toStartOf="parent"
-      app:rippleColor="@color/purple_500"
-      app:strokeColor="#FF0000"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.913"
       app:strokeWidth="10px" />
 </androidx.constraintlayout.widget.ConstraintLayout>
